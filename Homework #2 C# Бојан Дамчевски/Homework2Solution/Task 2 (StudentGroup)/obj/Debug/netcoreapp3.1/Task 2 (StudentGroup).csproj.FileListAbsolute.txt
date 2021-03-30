@@ -1,0 +1,13 @@
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\bin\Debug\netcoreapp3.1\Task 2 (StudentGroup).exe
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\bin\Debug\netcoreapp3.1\Task 2 (StudentGroup).deps.json
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\bin\Debug\netcoreapp3.1\Task 2 (StudentGroup).runtimeconfig.json
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\bin\Debug\netcoreapp3.1\Task 2 (StudentGroup).runtimeconfig.dev.json
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\bin\Debug\netcoreapp3.1\Task 2 (StudentGroup).dll
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\bin\Debug\netcoreapp3.1\Task 2 (StudentGroup).pdb
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\obj\Debug\netcoreapp3.1\Task 2 (StudentGroup).csprojAssemblyReference.cache
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\obj\Debug\netcoreapp3.1\Task 2 (StudentGroup).AssemblyInfoInputs.cache
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\obj\Debug\netcoreapp3.1\Task 2 (StudentGroup).AssemblyInfo.cs
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\obj\Debug\netcoreapp3.1\Task 2 (StudentGroup).csproj.CoreCompileInputs.cache
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\obj\Debug\netcoreapp3.1\Task 2 (StudentGroup).dll
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\obj\Debug\netcoreapp3.1\Task 2 (StudentGroup).pdb
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task 2 (StudentGroup)\obj\Debug\netcoreapp3.1\Task 2 (StudentGroup).genruntimeconfig.cache

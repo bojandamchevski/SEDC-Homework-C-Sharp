@@ -1,0 +1,13 @@
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\bin\Debug\netcoreapp3.1\Task5(Pyramid).exe
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\bin\Debug\netcoreapp3.1\Task5(Pyramid).deps.json
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\bin\Debug\netcoreapp3.1\Task5(Pyramid).runtimeconfig.json
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\bin\Debug\netcoreapp3.1\Task5(Pyramid).runtimeconfig.dev.json
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\bin\Debug\netcoreapp3.1\Task5(Pyramid).dll
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\bin\Debug\netcoreapp3.1\Task5(Pyramid).pdb
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\obj\Debug\netcoreapp3.1\Task5(Pyramid).AssemblyInfoInputs.cache
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\obj\Debug\netcoreapp3.1\Task5(Pyramid).AssemblyInfo.cs
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\obj\Debug\netcoreapp3.1\Task5(Pyramid).csproj.CoreCompileInputs.cache
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\obj\Debug\netcoreapp3.1\Task5(Pyramid).dll
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\obj\Debug\netcoreapp3.1\Task5(Pyramid).pdb
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\obj\Debug\netcoreapp3.1\Task5(Pyramid).genruntimeconfig.cache
+C:\Users\Com\Desktop\Homework #2 C# Бојан Дамчевски\Homework3Solution\Task5(Pyramid)\obj\Debug\netcoreapp3.1\Task5(Pyramid).csprojAssemblyReference.cache
