@@ -30,7 +30,11 @@ namespace Task4
 
             Console.WriteLine($"The number 3 has occured {k} times");
 
-            Console.WriteLine(arrayOfNumbers);
+            foreach (int num in arrayOfNumbers)
+            {
+                Console.WriteLine(num);
+
+            }
 
             Console.WriteLine("Press any key to exit!");
             Console.ReadKey();

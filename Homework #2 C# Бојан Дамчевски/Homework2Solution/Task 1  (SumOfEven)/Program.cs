@@ -9,31 +9,26 @@ namespace Task_1___SumOfEven_
             Console.WriteLine("SumOfEven");
             Console.WriteLine("You have to enter 6 numbers!");
 
-            Console.WriteLine("Enter first number!");
-            string input1 = Console.ReadLine();
-            bool successNum1 = int.TryParse(input1, out int num1);
+            int counter = 0;
+            int[] arrayOf6Integers = new int[6];
+            while (counter < 6)
+            {
+                Console.WriteLine("Enter a number: ");
+                bool success = int.TryParse(Console.ReadLine(), out int number);
+                if (!success)
+                {
+                    throw new Exception("Error, bad input, try again !");
+                }
+                else
+                {
+                arrayOf6Integers[counter] = number;
+                }
+                counter++;
+            }
 
-            Console.WriteLine("Enter second number!");
-            string input2 = Console.ReadLine();
-            bool successNum2 = int.TryParse(input2, out int num2);
-
-            Console.WriteLine("Enter third number!");
-            string input3 = Console.ReadLine();
-            bool successNum3 = int.TryParse(input3, out int num3);
-
-            Console.WriteLine("Enter fourth number!");
-            string input4 = Console.ReadLine();
-            bool successNum4 = int.TryParse(input4, out int num4);
-
-            Console.WriteLine("Enter fifth number!");
-            string input5 = Console.ReadLine();
-            bool successNum5 = int.TryParse(input5, out int num5);
-
-            Console.WriteLine("Enter sixth number!");
-            string input6 = Console.ReadLine();
-            bool successNum6 = int.TryParse(input6, out int num6);
-
-            int[] arrayOf6Integers = { num1, num2, num3, num4, num5, num6 };
+   
+            int sumOfEvenNumbers = 0;
+            int sumOfOddNumbers = 0;
 
             Console.WriteLine("Here are the numbers you entered!");
 
@@ -47,24 +42,18 @@ namespace Task_1___SumOfEven_
                 {
                     Console.Write(arrayOf6Integers[i] + ", ");
                 }
+                if (arrayOf6Integers[i] % 2 == 0)
+                {
+                    sumOfEvenNumbers += arrayOf6Integers[i];
+                }
+                if (arrayOf6Integers[i] % 2 != 0)
+                {
+                    sumOfOddNumbers += arrayOf6Integers[i];
+                }
             }
 
             Console.WriteLine("And now the results from the task:");
 
-            int sumOfEvenNumbers = 0;
-            int sumOfOddNumbers = 0;
-
-            for (int j = 0; j < arrayOf6Integers.Length; j++)
-            {
-                if (arrayOf6Integers[j] % 2 == 0)
-                {
-                    sumOfEvenNumbers += arrayOf6Integers[j];
-                }
-                if (arrayOf6Integers[j] % 2 != 0)
-                {
-                    sumOfOddNumbers += arrayOf6Integers[j];
-                }
-            }
             Console.WriteLine($"The sum of even numbers is equal to: {sumOfEvenNumbers}");
             Console.WriteLine($"The sum of odd numbers is equal to: {sumOfOddNumbers}");
 

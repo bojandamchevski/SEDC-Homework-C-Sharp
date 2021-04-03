@@ -12,14 +12,21 @@ namespace task3
 
             bool success = int.TryParse(Console.ReadLine(), out int num);
 
-            Console.WriteLine($"The sum of the digits of the number is: {SumOfDigits(num)}");
-            
+            if (!success)
+            {
+                throw new Exception("Error, bad input !");
+            }
+            else
+            {
+                Console.WriteLine($"The sum of the digits of the number is: {SumOfDigits(num)}");
+            }
+
             Console.WriteLine("Enter another number.");
 
             string input = Console.ReadLine();
 
             Console.WriteLine($"The sum of the digits of the number is: {sumOfDigits2(input)}");
-            
+
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
@@ -43,7 +50,14 @@ namespace task3
             foreach (char digit in arrayOfTheDigits)
             {
                 bool success = int.TryParse(digit.ToString(), out int num);
-                sum += num;    
+                if (!success)
+                {
+                    throw new Exception("Error, bad input !");
+                }
+                else
+                {
+                    sum += num;
+                }
             }
 
             return sum;
