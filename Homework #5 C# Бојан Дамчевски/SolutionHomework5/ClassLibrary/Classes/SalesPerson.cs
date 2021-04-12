@@ -22,19 +22,19 @@ namespace ClassLibrary.Classes
             {
                 if (_successSaleRevenue <= 2000)
                 {
-                    Salary += 500;
+                    return Salary += 500;
                 }
                 else if (_successSaleRevenue > 2000 && _successSaleRevenue <= 5000)
                 {
-                    Salary += 1000;
+                    return Salary += 1000;
                 }
                 else if (_successSaleRevenue > 5000)
                 {
-                    Salary += 1500;
+                    return Salary += 1500;
                 }
                 else
                 {
-                    Salary = Salary;
+                    return Salary;
                 }
             }
             return Salary;
