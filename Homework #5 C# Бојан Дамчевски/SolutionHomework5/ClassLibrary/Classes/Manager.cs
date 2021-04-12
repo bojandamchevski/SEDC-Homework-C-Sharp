@@ -14,8 +14,7 @@ namespace ClassLibrary.Classes
         }
         public override double GetSalary()
         {
-            Salary += _bonus;
-            return Salary;
+            return Salary + _bonus;
         }
         public Manager(string firstName, string lastName) : base(firstName, lastName)
         {
