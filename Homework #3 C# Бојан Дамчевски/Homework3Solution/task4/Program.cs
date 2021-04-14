@@ -71,6 +71,9 @@ namespace task4
                 case '/':
                     Console.WriteLine($"The division of the numbers is: {Division(number1, number2)}");
                     break;
+                default:
+                    Console.WriteLine("Error");
+                    break;
             }
         }
     }

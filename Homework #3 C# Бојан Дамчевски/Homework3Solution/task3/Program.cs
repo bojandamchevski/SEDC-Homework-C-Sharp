@@ -6,28 +6,30 @@ namespace task3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            Console.WriteLine("Enter a number.");
-
-            bool success = int.TryParse(Console.ReadLine(), out int num);
-
-            if (!success)
+            bool flag = true;
+            while (flag)
             {
-                throw new Exception("Error, bad input !");
+                Console.WriteLine("Enter a number.");
+
+                bool success = int.TryParse(Console.ReadLine(), out int num);
+
+                if (!success)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Bad input please try again !");
+                }
+                else
+                {
+                    Console.WriteLine($"The sum of the digits of the number is: {SumOfDigits(num)}");
+                    Console.WriteLine("Enter another number.");
+                    string input = Console.ReadLine();
+                    Console.WriteLine($"The sum of the digits of the number is: {sumOfDigits2(input)}");
+                    flag = false;
+                    Console.WriteLine("Press any key to exit.");
+                }
+
+
             }
-            else
-            {
-                Console.WriteLine($"The sum of the digits of the number is: {SumOfDigits(num)}");
-            }
-
-            Console.WriteLine("Enter another number.");
-
-            string input = Console.ReadLine();
-
-            Console.WriteLine($"The sum of the digits of the number is: {sumOfDigits2(input)}");
-
-            Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
         static int SumOfDigits(int number)
@@ -46,20 +48,19 @@ namespace task3
             char[] arrayOfTheDigits = number.ToCharArray();
 
             int sum = 0;
-
             foreach (char digit in arrayOfTheDigits)
             {
                 bool success = int.TryParse(digit.ToString(), out int num);
                 if (!success)
                 {
-                    throw new Exception("Error, bad input !");
+                    Console.WriteLine("Error, bad input please try again !");
                 }
                 else
                 {
                     sum += num;
                 }
-            }
 
+            }
             return sum;
         }
     }
