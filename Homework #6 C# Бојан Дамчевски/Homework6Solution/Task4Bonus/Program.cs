@@ -8,6 +8,33 @@ namespace Task4Bonus
 {
     class Program
     {
+        static void GetDictionary(List<Employee> employeeList)
+        {
+            Dictionary<int, List<string>> newDictionary = new Dictionary<int, List<string>>();
+
+            foreach (Employee person in employeeList)
+            {
+                if (newDictionary.ContainsKey(person.Age))
+                {
+                    List<string> newList = newDictionary[person.Age];
+                    newList.Add($"{person.FirstName} {person.LastName}");
+                    newDictionary[person.Age] = newList;
+                }
+                else
+                {
+                    newDictionary.Add(person.Age, new List<string>() { $"{person.FirstName} {person.LastName}" });
+                }
+            }
+
+            foreach (var item in newDictionary)
+            {
+                Console.WriteLine(item.Key);
+                foreach (var fullname in item.Value)
+                {
+                    Console.WriteLine(fullname + "\n");
+                }
+            }
+        }
         static void Main(string[] args)
         {
             Employee employee1 = new Employee("John", "Smith", 40);
@@ -35,30 +62,7 @@ namespace Task4Bonus
                 employee10
             };
 
-            Dictionary<int, List<string>> newDictionary = new Dictionary<int, List<string>>();
-
-            foreach (Employee person in employees)
-            {
-                if (newDictionary.ContainsKey(person.Age))
-                {
-                    List<string> newList = newDictionary[person.Age];
-                    newList.Add($"{person.FirstName} {person.LastName}");
-                    newDictionary[person.Age] = newList;
-                }
-                else
-                {
-                    newDictionary.Add(person.Age, new List<string>() { $"{person.FirstName} {person.LastName}" });
-                }
-            }
-
-            foreach (var item in newDictionary)
-            {
-                Console.WriteLine(item.Key);
-                foreach (var fullname in item.Value)
-                {
-                    Console.WriteLine(fullname + "\n");
-                }
-            }
+            GetDictionary(employees);
 
             Console.ReadLine();
         }

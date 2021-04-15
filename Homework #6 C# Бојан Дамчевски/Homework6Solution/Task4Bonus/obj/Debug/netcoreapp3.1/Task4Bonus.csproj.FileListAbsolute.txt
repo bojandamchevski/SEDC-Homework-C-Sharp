@@ -11,3 +11,16 @@ C:\Users\Com\Desktop\Homework #6 C# Бојан Дамчевски\Homework6Solut
 C:\Users\Com\Desktop\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.dll
 C:\Users\Com\Desktop\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.pdb
 C:\Users\Com\Desktop\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.genruntimeconfig.cache
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\bin\Debug\netcoreapp3.1\Task4Bonus.exe
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\bin\Debug\netcoreapp3.1\Task4Bonus.deps.json
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\bin\Debug\netcoreapp3.1\Task4Bonus.runtimeconfig.json
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\bin\Debug\netcoreapp3.1\Task4Bonus.runtimeconfig.dev.json
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\bin\Debug\netcoreapp3.1\Task4Bonus.dll
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\bin\Debug\netcoreapp3.1\Task4Bonus.pdb
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.csprojAssemblyReference.cache
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.AssemblyInfoInputs.cache
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.AssemblyInfo.cs
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.csproj.CoreCompileInputs.cache
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.dll
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.pdb
+C:\Users\Com\Desktop\SEDC-Homework-C-Sharp\Homework #6 C# Бојан Дамчевски\Homework6Solution\Task4Bonus\obj\Debug\netcoreapp3.1\Task4Bonus.genruntimeconfig.cache
