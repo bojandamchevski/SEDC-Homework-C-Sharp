@@ -6,25 +6,28 @@ namespace task5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Task 5");
-
-
-            Console.WriteLine("Enter your date of birth (day-month-year).");
-
-            string inputBirthDate = Console.ReadLine();
-
-            bool success = DateTime.TryParse(inputBirthDate, out DateTime convertedBirthDate);
-
-            if (!success)
+            bool flag = true;
+            while (flag)
             {
-                throw new Exception("Invalid date!");
-            }
-            else
-            {
-                Console.WriteLine($"You are {AgeCalculator(convertedBirthDate)} years old.");
-            }
+                Console.WriteLine("Task 5");
 
+                Console.WriteLine("Enter your date of birth (day-month-year).");
 
+                string inputBirthDate = Console.ReadLine();
+
+                bool success = DateTime.TryParse(inputBirthDate, out DateTime convertedBirthDate);
+
+                if (!success)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Invalid input, please try again !");
+                }
+                else
+                {
+                    Console.WriteLine($"You are {AgeCalculator(convertedBirthDate)} years old.");
+                    flag = false;
+                }
+            }
             Console.WriteLine("Press any key to exit!");
             Console.ReadKey();
         }

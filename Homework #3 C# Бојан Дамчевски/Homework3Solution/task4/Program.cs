@@ -6,29 +6,42 @@ namespace task4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Task 4");
-
-            Console.WriteLine("Enter an operator.");
-
-            bool success1 = char.TryParse(Console.ReadLine(), out char opera);
-            
-            Console.WriteLine("Enter first number.");
-            bool success2 = double.TryParse(Console.ReadLine(), out double num1);
-
-
-            Console.WriteLine("Enter second number.");
-            bool success3 = double.TryParse(Console.ReadLine(), out double num2);
-
-            if(!success1 || !success2 || !success3)
+            bool flag = true;
+            while (flag)
             {
-                throw new Exception("Invalid input!");
-            }
-            else
-            {
-                Calculator(opera, num1, num2);
-            }
+                Console.WriteLine("Task 4");
 
-            Console.WriteLine("Press any key to exit!");
+                Console.WriteLine("Enter an operator.");
+
+                bool success1 = char.TryParse(Console.ReadLine(), out char opera);
+
+                Console.WriteLine("Enter first number.");
+                bool success2 = double.TryParse(Console.ReadLine(), out double num1);
+
+
+                Console.WriteLine("Enter second number.");
+                bool success3 = double.TryParse(Console.ReadLine(), out double num2);
+                if (success1 && success2 && success3)
+                {
+                    if (opera == '/' || opera == '*' || opera == '+' || opera == '-')
+                    {
+                        Calculator(opera, num1, num2);
+                        Console.WriteLine(success1);
+                        flag = false;
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Bad input, try again !");
+                    }
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.WriteLine("Bad input, try again !");
+                }
+                    Console.WriteLine("Press any key to exit!");
+            }
             Console.ReadKey();
         }
         static double Sum(double num1, double num2)

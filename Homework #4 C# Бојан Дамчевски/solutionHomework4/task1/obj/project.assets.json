@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework 4 C# Бојан Дамчевски\\solutionHomework4\\task1\\task1.csproj",
+      "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #4 C# Бојан Дамчевски\\solutionHomework4\\task1\\task1.csproj",
       "projectName": "task1",
-      "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework 4 C# Бојан Дамчевски\\solutionHomework4\\task1\\task1.csproj",
+      "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #4 C# Бојан Дамчевски\\solutionHomework4\\task1\\task1.csproj",
       "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework 4 C# Бојан Дамчевски\\solutionHomework4\\task1\\obj\\",
+      "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #4 C# Бојан Дамчевски\\solutionHomework4\\task1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
