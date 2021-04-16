@@ -18,7 +18,6 @@ namespace Task4Bonus
                 {
                     List<string> newList = newDictionary[person.Age];
                     newList.Add($"{person.FirstName} {person.LastName}");
-                    newDictionary[person.Age] = newList;
                 }
                 else
                 {
