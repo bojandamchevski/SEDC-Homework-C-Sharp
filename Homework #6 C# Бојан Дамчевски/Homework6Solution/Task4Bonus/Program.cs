@@ -12,7 +12,7 @@ namespace Task4Bonus
         {
             Dictionary<int, List<string>> newDictionary = new Dictionary<int, List<string>>();
 
-            foreach (Employee person in employeeList)
+            foreach (var person in employeeList)
             {
                 if (newDictionary.ContainsKey(person.Age))
                 {
