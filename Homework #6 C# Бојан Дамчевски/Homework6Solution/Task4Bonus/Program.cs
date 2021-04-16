@@ -37,14 +37,14 @@ namespace Task4Bonus
         static void Main(string[] args)
         {
             Employee employee1 = new Employee("John", "Smith", 40);
-            Employee employee2 = new Employee("Helen", "Smith", 37);
-            Employee employee3 = new Employee("Frank", "Frink", 32);
+            Employee employee2 = new Employee("Helen", "Smith", 40);
+            Employee employee3 = new Employee("Frank", "Frink", 40);
             Employee employee4 = new Employee("Juliana", "Crane", 29);
-            Employee employee5 = new Employee("Joey", "Tribianni", 27);
+            Employee employee5 = new Employee("Joey", "Tribianni", 40);
             Employee employee6 = new Employee("Chandler", "Bing", 24);
             Employee employee7 = new Employee("Rachel", "Green", 24);
             Employee employee9 = new Employee("Monica", "Geller", 26);
-            Employee employee8 = new Employee("Ross", "Geller", 28);
+            Employee employee8 = new Employee("Ross", "Geller", 40);
             Employee employee10 = new Employee("Phoebe", "Buffay", 26);
 
             List<Employee> employees = new List<Employee>()
