@@ -100,17 +100,23 @@ namespace homework
                     int counter = 1;
                     Console.WriteLine("Please type your desired genre: ");
                     string genreChoice = Console.ReadLine();
-                    List<Movie> byGenre = currentCinema.ListOfMovies.Where(movie => movie.Genre.ToString().Equals(genreChoice, StringComparison.InvariantCultureIgnoreCase)).ToList();
-                    Console.WriteLine("Movies by your desired genre: ");
-                    foreach (Movie movie in byGenre)
+                    if (Enum.TryParse(genreChoice, out Genre genres))
                     {
-                        Console.WriteLine("{0}) {1}", counter, movie.Title);
-                        counter++;
+                        List<Movie> byGenre = currentCinema.ListOfMovies.Where(movie => movie.Genre.ToString().Equals(genreChoice, StringComparison.InvariantCultureIgnoreCase)).ToList();
+                        Console.WriteLine("Movies by your desired genre: ");
+                        foreach (Movie movie in byGenre)
+                        {
+                            Console.WriteLine("{0}) {1}", counter, movie.Title);
+                            counter++;
+                        }
+                        Console.WriteLine("Please enter the movie you want to watch: ");
+                        string movieChoice = Console.ReadLine();
+                        currentCinema.WatchMovie(byGenre.FirstOrDefault(movie => movie.Title.ToString().Equals(movieChoice, StringComparison.InvariantCultureIgnoreCase)));
                     }
-                    Console.WriteLine("Please enter the movie you want to watch: ");
-                    string movieChoice = Console.ReadLine();
-                    currentCinema.WatchMovie(byGenre.FirstOrDefault(movie => movie.Title.ToString().Equals(movieChoice, StringComparison.InvariantCultureIgnoreCase)));
-
+                    else
+                    {
+                        throw new Exception("Enter a valid movie genre!");
+                    }
                 }
                 else
                 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\homework.csproj": {}
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\homework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj": {
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj",
         "projectName": "ClassLibrary",
-        "projectPath": "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj",
+        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj",
         "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\homework.csproj": {
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\homework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\homework.csproj",
+        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\homework.csproj",
         "projectName": "homework",
-        "projectPath": "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\homework.csproj",
+        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\homework.csproj",
         "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\obj\\",
+        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\homework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-C-Sharp\\Homework #7 C# Бојан Дамчевски\\Homework7Solution\\ClassLibrary\\ClassLibrary.csproj"
               }
             }
           }
