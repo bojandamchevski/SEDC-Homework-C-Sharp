@@ -98,7 +98,7 @@ namespace homework
                 else if (option == 2)
                 {
                     int counter = 1;
-                    Console.WriteLine("Please type your desired genre: ");
+                    Console.WriteLine("Please type your desired genre: Comedy, Horror, Action, Drama and SciFi.");
                     string genreChoice = Console.ReadLine();
                     if (Enum.TryParse(genreChoice, out Genre genres))
                     {
@@ -115,6 +115,7 @@ namespace homework
                     }
                     else
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         throw new Exception("Enter a valid movie genre!");
                     }
                 }
@@ -126,16 +127,19 @@ namespace homework
             }
             catch (FormatException e)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(e.Message);
                 Console.WriteLine("Incorrect input");
             }
             catch (NullReferenceException e)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(e.Message);
                 Console.WriteLine("Movie does not exist");
             }
             catch (Exception e)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(e.Message);
             }
 
