@@ -36,7 +36,15 @@ namespace ClassLibrary.Classes
 
         public void WatchMovie(Movie movie)
         {
-            Console.WriteLine($"Watching {movie.Title}");
+            if (movie == null)
+            {
+                throw new Exception("Enter valid movie name!");
+            }
+            else
+            {
+                Console.WriteLine($"Watching {movie.Title}");
+            }
+
         }
     }
 }
