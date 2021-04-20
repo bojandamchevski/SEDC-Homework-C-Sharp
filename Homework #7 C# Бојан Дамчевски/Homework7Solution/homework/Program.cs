@@ -111,7 +111,14 @@ namespace homework
                         }
                         Console.WriteLine("Please enter the movie you want to watch: ");
                         string movieChoice = Console.ReadLine();
-                        currentCinema.WatchMovie(byGenre.FirstOrDefault(movie => movie.Title.ToString().Equals(movieChoice, StringComparison.InvariantCultureIgnoreCase)));
+                        if (String.IsNullOrEmpty(movieChoice))
+                        {
+                            throw new Exception("Enter a movie name !");
+                        }
+                        else
+                        {
+                            currentCinema.WatchMovie(byGenre.FirstOrDefault(movie => movie.Title.ToString().Equals(movieChoice, StringComparison.InvariantCultureIgnoreCase)));
+                        }
                     }
                     else
                     {
